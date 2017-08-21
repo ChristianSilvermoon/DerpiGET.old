@@ -2,8 +2,7 @@
 #Mass download Derpibooru link list for Shimmie2's Bulk Add CSV Extention
 #
 #By Christian "Krissy" Silvermoon
-#https://www.furaffinity.net/user/christiansilvermoon/
-scriptversion="v17.7.11 by Christian \"Krissy\" Silvermoon"
+scriptversion="v17.7.11-git by Christian \"Krissy\" Silvermoon"
 
 function help_message {
 
@@ -1183,9 +1182,9 @@ if [ "$(command -v wc)" = "" ]; then
 	dependerr=$(echo -e "$dependerr\nwc")
 fi
 
-if [ "$(command -v mimetype)" = "" ]; then
-	dependerr=$(echo -e "$dependerr\nmimetype")
-fi
+#if [ "$(command -v mimetype)" = "" ]; then
+#	dependerr=$(echo -e "$dependerr\nmimetype")
+#fi
 
 if [ "$dependerr" != "" ]; then
 	echo "Whoopsie! It looks like you're missing some commands that DerpiGET"
