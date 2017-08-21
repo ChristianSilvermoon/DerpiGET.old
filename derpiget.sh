@@ -742,14 +742,6 @@ function derpiget_about {
 		echo "  http://derpibooru.org"
 		echo ""
 		echo "  Written by Christian \"Krissy\" Silvermoon"
-		echo "  https://www.furaffinity.net/user/christiansilvermoon/"
-		echo "  dev.ksilvermoon@gmail.com"
-		echo ""
-		echo "  CC BY-NC-SA"
-		echo "  Creative Commons Attribution-NonCommercial-ShareAlike"
-		echo ""
-		echo "  See below for details"
-		echo "  https://creativecommons.org/licenses/by-nc-sa/4.0/"
 	elif [ "$1" = "derpibooru" ]; then
 		echo "Derpibooru"
 		echo "  A My Little Pony: Friendship is Magic fandom image board"
@@ -1080,7 +1072,6 @@ function derpiget_changelog {
 	-Moved config file reading to a more appropriate place in the script.
 
 	v17.1.1 - The Arguments Update
-	-Added Lisensce information
 	-Added New Default functionality downloads and names images based on tags
 	-Added '--shimmie' argument, preforms original default functionality
 	-Added '--search' argument for recording ALL search results
