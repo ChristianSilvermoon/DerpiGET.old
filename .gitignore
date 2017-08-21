@@ -1,0 +1,8 @@
+#Ignore Configs, etc.
+*.conf
+*.csv
+*.txt
+
+
+#Ignore downloaded images
+img/*
