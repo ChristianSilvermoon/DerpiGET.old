@@ -1471,12 +1471,6 @@ elif [ "$arg_help" = "true" ]; then
 elif [ "$arg_version" = "true" ]; then
 	echo "DerpiGET Version"
 	echo "  $scriptversion"
-	echo ""
-	echo "License"
-	echo "  CC BY-NC-SA"
-	echo "  Creative Commons Attribution-NonCommercial-ShareAlike"
-	echo "  https://creativecommons.org/licenses/by-nc-sa/4.0/"
-	echo ""
 	exit
 elif [ "$arg_genbashcomplete" = "true" ]; then
 	derpiget_genbashcomplete
