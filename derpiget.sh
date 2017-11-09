@@ -494,7 +494,7 @@ function derpiget_search {
 		echo "The purpose of this option is for mass downloading"
 		echo "The results of a FINE TUNED search"
 		echo
-		echo "Please review yours search before unintentionally"
+		echo "Please review your search before unintentionally"
 		echo "Downloading over 1000 posts or something!"
 		echo ""
 
